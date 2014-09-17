@@ -1,0 +1,45 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Great Job
+tagline:	Test or Die.
+description:	'Great Job design studio'
+url:		http://www.greatjob.is
+
+author:
+  name:		'Great Job'
+  url:		http://www.greatjob.is
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/iancamporez
+    desc:	Follow us on twitter
+
+  - icon:	github
+    url:	https://github.com/greatjobprojects
+    desc:	Fork us on github
+
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	Great Job LLC
+  url:		http://wwww.greatjob.is
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
