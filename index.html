@@ -3,88 +3,120 @@ layout: default
 title: Home
 ---
 
-<header class="clean" style="height: 480px; background-image: url({{ site.cover }});">
-	{% include top.html %}
-	<div id="home-title">
-
-		<a href="{{ site.url }}">
-			<h1>Great Job</h1>
-			<h3>Test or die.</h3>
-		</a>
-		
-	</div>
-</header>
-<div class="projects" id="work">
-	<h1>Projects</h1>
-	<div class="grid">
-  		<div class="col-1-3">
-  			<img class="projects" src="/assets/images/icon.png">
-    		<h3>Empeopled</h3>
-  		</div>
-	  	<div class="col-1-3">
-	  		<img class="projects" src="/assets/images/icon.png">
-	    	<h3>PassportPhone</h3>
-	  	</div>
-  		<div class="col-1-3">
-  			<img class="projects" src="/assets/images/icon.png">
-     		<h3>Wordoko</h3>
-  		</div>
-	</div>
-	<div class="grid">
-  		<div class="col-1-3">
-  			<img class="projects" src="/assets/images/icon.png">
-    		<h3>Startup Institute</h3>
-  		</div>
-	  	<div class="col-1-3">
-	  		<img class="projects" src="/assets/images/icon.png">
-	    	<h3>Loyola University</h3>
-	  	</div>
-  		<div class="col-1-3">
-  			<img class="projects" src="/assets/images/icon.png">
-     		<h3>Mozilla Foundation</h3>
-  		</div>
-	</div>
-</div>
 
 
+	<header class="clean" style="height: 100%; background-image: url({{ site.cover }});">
+		{% include top.html %}
+		<div id="home-title">
 
-<div class="projects" id="about">
-	<h1>About</h1>
-	<div class="col-1-2">
-		<img class="projects" src="/assets/images/icon.png">
-		<h3>Geoffrey Byers</h3>
-		<p class="post-description">Geoffrey is volatile mix of a thinker and a doer. He obsessively designs, builds, hacks and hustles. Prior to founding Great Job, Geoffrey worked for NASA on the external tank for the space shuttle and with Siemens designing products for the medical, building technology, and automation industries. Geoffrey is an avid swimmer, jazz musician, and semi-professional diesel mechanic.</p>
-	</div>
-	<div class="col-1-2">
-		<img class="projects" src="/assets/images/icon.png">
-		<h3>Jordan Braun</h3>
-		<p class="post-description">Jordan is a designer with a focus on abstract problem solving. He is a founder and designer at Great Job. Prior to founding Great Job, Jordan worked as both a UX Designer and Product Manager at two Chicago-based startups. He loves to push his own boundaries and is often experimenting with diet, exercise, and lifestyle.</p>
-	</div>
-
-</div>
-<div id="post-list">
-	{% for post in paginator.posts %}
-		<div>
-			<span class="post-date">{{ post.date | date_to_long_string }}</span>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			<p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+			<a href="{{ site.url }}">
+				<h1>Great Job</h1>
+			</a>
+			<a href="#work"><h3>Work</h3>
+			</a>
+			<h3>  |  </h3>
+			<a href="#about"><h3>About</h3>
+			</a>
+			<!--
+			<h3>  |  </h3>
+			<a href="#post-list"><h3>Articles</h3>
+			</a>
+			-->
 		</div>
-		<br>
-	{% endfor %}
-</div>
-<nav class="pagination" role="navigation">
-	{% if paginator.next_page %}
-		<a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-	{% endif %}
-	<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	{% if paginator.previous_page %}
-		{% if paginator.page == 2 %}
-			<a class="older-posts" href="/">Newer posts &rarr;</a>
-		{% else %}
-			<a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+
+	</header>
+
+
+
+		<div class="projects" id="work">
+			<h1>Work</h1>
+			<div class="grid">
+		  		<div class="col-1-3">
+		  			<img src="/assets/images/icon.png">
+		    		<h3>Empeopled</h3>
+		  		</div>
+			  	<div class="col-1-3">
+			  		<img src="/assets/images/icon.png">
+			    	<h3>PassportPhone</h3>
+			  	</div>
+		  		<div class="col-1-3">
+		  			<img src="/assets/images/icon.png">
+		     		<h3>Wordoko</h3>
+		  		</div>
+			</div>
+			<div class="grid">
+		  		<div class="col-1-3">
+		  			<img src="/assets/images/icon.png">
+		    		<h3>Startup Institute</h3>
+		  		</div>
+			  	<div class="col-1-3">
+			  		<img src="/assets/images/icon.png">
+			    	<h3>Loyola University</h3>
+			  	</div>
+		  		<div class="col-1-3">
+		  			<img src="/assets/images/icon.png">
+		     		<h3>Mozilla Foundation</h3>
+		  		</div>
+			</div>
+		</div>
+
+
+
+		<div class="projects" id="about">
+			<h1>About</h1>
+			<p class="post-description" style="padding-left:10%; padding-right:10%">
+				Great Job uses the scientific method to solve design problems. Our process focuses on prototyping, experimentation, and user research. Our work ethic is aggressive and fast-paced. We are designers with engineering minds. We are gentlemen with a wild streak. We would love to work on your project.
+			</p>	
+			<div class="grid">
+				<div class="col-1-2">
+					<img class="projects" src="/assets/images/geoffrey.jpg">
+					<h3>Geoffrey Byers</h3>
+					<h3>Founder | Designer</h3>
+					<p class="post-description">Geoffrey is volatile mix of a thinker and a doer. He obsessively designs, builds, hacks and hustles. Prior to founding Great Job, Geoffrey worked for NASA on the external tank for the space shuttle and with Siemens designing products for the medical, building technology, and automation industries. Geoffrey is an avid swimmer, jazz musician, and semi-professional diesel mechanic.</p>
+				</div>
+				<div class="col-1-2">
+					<img class="projects" src="/assets/images/jordan.jpg">
+					<h3>Jordan Braun</h3>
+					<h3>Founder | Designer</h3>
+					<p class="post-description">Jordan is a problem solver. He loves getting his hands dirty with guerrilla research and prototyping. Jordan has worked as a UX Designer, Product Manger, and Operations Manger. He studied information systems at Loyola University's Quinlan School of Business. He loves to push his own boundaries and is often experimenting with diet, exercise, and lifestyle. </p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+	<div id="post-list">
+		
+		{% for post in paginator.posts %}
+			<div>
+				<span class="post-date">{{ post.date | date_to_long_string }}</span>
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<p class="post-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+			<br>
+		{% endfor %}
+	</div>
+
+	<!--
+	<nav class="pagination" role="navigation">
+		{% if paginator.next_page %}
+			<a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
 		{% endif %}
-	{% endif %}
-</nav>
-<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
-	<p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
-</footer>
+		<span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+				<a class="older-posts" href="/">Newer posts &rarr;</a>
+			{% else %}
+				<a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+			{% endif %}
+		{% endif %}
+	</nav>
+-->
+
+
+	<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
+		<p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+	</footer>
+

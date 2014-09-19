@@ -33,7 +33,10 @@ header a, footer a {
 footer {
 	width: 100%;
 	margin-top: 50px;
+	bottom: 0;
+
 }
+
 
 p {
 	margin-top: 10px;
@@ -73,7 +76,7 @@ img {
 	z-index: 2;
 }
 
-#post-info h1 {
+#info h1 {
 	font-weight: bold;
 	margin: 15px 0px;
 }
@@ -301,7 +304,7 @@ pre code {
 .clean h1 {
 	color: #313131;
 	font-size: 96px;
-	line-height: .25;
+	line-height: 1;
 	opacity: .9;
 }
 
@@ -309,6 +312,11 @@ pre code {
 	color: #313131;
 	line-height: .25;
 	opacity: .9;
+	display: inline-block;
+}
+
+.clean h3:hover {
+	opacity: 1;
 }
 
 .dark, .dark a {
@@ -319,7 +327,7 @@ pre code {
 	width: auto;
 	top: 20px;
 	right: 20px;
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 }
 
@@ -510,15 +518,21 @@ pre code {
 	text-align: left;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-bottom: 60px;
 	line-height: 1.5;
+	height: auto;
+	position: relative;
 }
 
 img.projects {
-	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+	max-width: 360px;
 }
 
 .projects h3 {
 	text-align: center;
+	margin-top: 0px;
 }
 
 
@@ -538,11 +552,11 @@ body {
 
 [class*='col-'] {
 	float: left;
-	padding-right: 20px; /* column-space */
+	padding-right: 80px; /* column-space */
 }
 
 .grid {
-	width: 100%;
+	width: 80%;
 	max-width: 1140px;
 	min-width: 755px;
 	margin: 0 auto;
@@ -556,7 +570,7 @@ body {
 }
 
 .grid-pad {
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-left: 20px; /* grid-space to left */
 	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 }
