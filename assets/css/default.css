@@ -308,6 +308,18 @@ pre code {
 	opacity: .9;
 }
 
+.clean h2 {
+	color: #313131;
+	font-size: 60px;
+	line-height: 1;
+	opacity: .9;
+	display: inline-block;
+}
+
+.clean h2:hover {
+	opacity: 1;
+}
+
 .clean h3 {
 	color: #313131;
 	line-height: .25;
@@ -327,7 +339,7 @@ pre code {
 	width: auto;
 	top: 20px;
 	right: 20px;
-	position: fixed;
+	position: absolute;
 	z-index: 2;
 }
 

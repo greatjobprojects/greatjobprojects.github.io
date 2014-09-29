@@ -12,10 +12,10 @@ title: Home
 			<a href="{{ site.url }}">
 				<h1>Great Job</h1>
 			</a>
-			<a href="#work"><h3>Work</h3>
+			<a class="smoothScroll" href="#work"><h3>Work</h3>
 			</a>
 			<h3>  |  </h3>
-			<a href="#about"><h3>About</h3>
+			<a class="smoothScroll" href="#about"><h3>About</h3>
 			</a>
 			<!--
 			<h3>  |  </h3>
@@ -61,8 +61,60 @@ title: Home
 		</div>
 	-->
 
+	<header class="clean" id="work" style="height: 100%; background-color: #ffffff">
+
+		<div id="workshops" style="height:33.33%">
+
+			<a href="/workshops.html">
+				<h2>Workshops</h2>
+			</a>
+		</div>
+
+		<div id="user-research" style="height:33.33%">
+
+			<a href="/user_research.html">
+				<h2>User Research & Prototyping</h2>
+			</a>
+		</div>
 
 
+		<div id="ui-design" style="height:33.33%">
+
+			<a href="/ui.html">
+				<h2>UI Design & Development</h2>
+			</a>
+		</div>
+	</header>
+
+
+	<header class="clean" id="about" style="height: 100%; background-color: #ffffff">
+
+		<div id="workshops" style="height:33.33%">
+
+			<a href="{{ site.url }}">
+				<h2>Methodology</h2>
+			</a>
+		</div>
+
+		<div id="user-research" style="height:33.33%">
+
+			<a href="http://www.geoffreybyers.com">
+				<h2>Geoffrey Byers</h2>
+			</a>
+		</div>
+
+
+		<div id="ui-design" style="height:33.33%">
+
+			<a href="http://www.jhbraun.com">
+				<h2>Jordan Braun</h2>
+			</a>
+		</div>
+	</header>
+
+
+
+<!--
 		<div class="projects" id="about">
 			<h1>About</h1>
 			<p class="post-description" style="padding-left:10%; padding-right:10%">
@@ -83,6 +135,8 @@ title: Home
 				</div>
 			</div>
 		</div>
+
+	-->
 
 
 
@@ -119,5 +173,9 @@ title: Home
 
 	<footer class="clean" style="background-image: url({{ site.cover }}); background-position: bottom; height: 60px;">
 		<p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+
+		<script>
+	    	smoothScroll.init();
+		</script>
 	</footer>
 
