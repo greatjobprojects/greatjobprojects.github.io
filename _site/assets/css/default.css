@@ -303,15 +303,15 @@ pre code {
 
 .clean h1 {
 	color: #313131;
-	font-size: 96px;
-	line-height: 1;
+	font-size: 72px;
+	line-height: 1.15;
 	opacity: .9;
 }
 
 .clean h2 {
 	color: #313131;
-	font-size: 60px;
-	line-height: 1;
+	font-size: 54px;
+	line-height: 1.15;
 	opacity: .9;
 	display: inline-block;
 }
@@ -322,7 +322,7 @@ pre code {
 
 .clean h3 {
 	color: #313131;
-	line-height: .25;
+	line-height: 1.15;
 	opacity: .9;
 	display: inline-block;
 }
