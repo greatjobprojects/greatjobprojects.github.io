@@ -109,7 +109,7 @@ img {
 	height: 150px;
 	text-align: center;
 	left: 50%;
-	top: 50%;
+	top: 33.33%;
 	position: absolute;
 	z-index: 1;
 }
@@ -288,7 +288,7 @@ pre code {
 
 .clean {
 	color: #313131;
-	background-color: #888;
+	background-color: #ffffff;
 }
 
 .clean a {
@@ -297,38 +297,38 @@ pre code {
 
 }
 
-.clean h1:hover {
+.clean h1 {
+	color: #000000;
+	font-size: 72px;
+	line-height: 1.15;
 	opacity: 1;
 }
 
-.clean h1 {
-	color: #313131;
-	font-size: 72px;
-	line-height: 1.15;
-	opacity: .9;
+.clean h1:hover {
+	opacity: .8;
 }
 
 .clean h2 {
-	color: #313131;
-	font-size: 54px;
+	color: #000000;
+	font-size: 48px;
 	line-height: 1.15;
-	opacity: .9;
+	opacity: 1;
 	display: inline-block;
 }
 
 .clean h2:hover {
-	opacity: 1;
+	opacity: .8;
 }
 
 .clean h3 {
-	color: #313131;
+	color: #000000;
 	line-height: 1.15;
-	opacity: .9;
+	opacity: 1;
 	display: inline-block;
 }
 
 .clean h3:hover {
-	opacity: 1;
+	opacity: .8;
 }
 
 .dark, .dark a {
@@ -339,26 +339,26 @@ pre code {
 	width: auto;
 	top: 20px;
 	right: 20px;
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 }
 
 .social-links a {
-	opacity: 0.9;
-	font-size: 48px;
+	opacity: 1;
+	font-size: 36px;
 	text-decoration: none;
 	display: inline-block;
 	margin: 0 5px 0 5px;
 	padding: 0;
 }
 .social-links a span {
-	font-size: 48px;
-	height: 48px;
-	width: 48px;
+	font-size: 24px;
+	height: 24px;
+	width: 24px;
 }
 
 .social-links a:hover, .menu a:hover {
-	opacity: 1;
+	opacity: .8;
 }
 
 .menu {
