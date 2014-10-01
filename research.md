@@ -3,16 +3,47 @@ layout: page
 title: Research & Prototyping
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget neque fringilla, pulvinar odio sit amet, malesuada ligula. Curabitur aliquam tempor nibh vel convallis. Integer erat dolor, convallis nec felis at, gravida volutpat magna. Fusce nec nunc id risus tempus luctus. Integer vehicula ipsum fermentum est lobortis condimentum. Nulla at placerat ipsum, quis mollis dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum a sagittis velit. Etiam non diam quis massa fermentum tristique. Cras porta, magna a malesuada facilisis, magna diam mattis odio, ac placerat erat erat a orci. Proin id metus nulla. In at nisi eu nisi elementum tincidunt eu at ipsum. Praesent condimentum varius quam, a rutrum sem ultricies eu. Quisque nisl sem, lobortis et laoreet mattis, faucibus at quam. Suspendisse potenti. Nunc eget purus eget metus convallis auctor eu in libero.
+We use the scientific method to solve problems, because we know that it works. Effective problem solving requires experimentation and testing, that's why scientists do it.
 
-Aliquam vulputate augue magna, sit amet volutpat odio adipiscing non. Nulla congue orci tortor, a facilisis felis faucibus sit amet. Sed aliquam nibh id ornare sagittis. Cras faucibus, est aliquam sollicitudin consectetur, elit urna eleifend nunc, consectetur malesuada odio nulla a justo. Aliquam id elit nisl. Fusce quis mauris massa. Etiam quis adipiscing ligula. Suspendisse nec mi posuere, gravida mi in, volutpat libero. Etiam tempus facilisis erat. Nulla eget porta turpis, id porttitor tellus. Aenean posuere sollicitudin condimentum. Vestibulum gravida dolor nec nisl pellentesque consequat. Nam et commodo arcu.
+Research will help you understand the problem you are trying to solve and the people you are trying to solve it for. Prototyping will validate whether or not you are actually solving the problem.
 
-Sed ultrices viverra condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec sodales mi, vel posuere sem. Nullam ultrices tellus enim, a iaculis urna facilisis ac. Donec euismod egestas nisi, sit amet viverra felis volutpat malesuada. Nunc tincidunt arcu nunc, ac commodo mauris tristique quis. Curabitur et risus fringilla, semper odio at, tristique enim. Suspendisse varius, augue et commodo feugiat, magna tellus vestibulum turpis, et aliquet odio erat eget arcu. Nam tincidunt porttitor tincidunt. Nullam metus sapien, pretium at nisi quis, malesuada cursus tortor. Sed interdum turpis ante, ac feugiat odio ultrices at. Cras ornare quam ipsum, at sagittis libero interdum at. Donec consequat dignissim risus, sed mollis urna rutrum vel. Morbi dapibus feugiat tellus dictum blandit.
 
-Nulla id erat a neque mattis dignissim sit amet eget nunc. Nulla facilisi. Praesent vitae venenatis nisi. Donec varius a mi vitae tristique. Vivamus vitae sapien ac justo malesuada adipiscing. Praesent neque risus, laoreet quis vehicula sit amet, ullamcorper id arcu. Maecenas eleifend quam in purus auctor molestie. In hac habitasse platea dictumst. Praesent non felis aliquam, vestibulum tortor eget, lobortis eros. Ut accumsan nisl sapien, eget pretium magna porttitor et. Nam hendrerit dui velit, ac pharetra ante tristique ac. Suspendisse vitae arcu justo.
+----------
 
-Ut sit amet mollis velit. Vivamus eget diam id diam convallis molestie et sagittis diam. Vestibulum pharetra tristique est vel adipiscing. In a est dignissim, auctor magna at, cursus leo. Maecenas varius augue non lacinia eleifend. Fusce tempor elementum rutrum. Donec dolor tortor, condimentum sed vehicula vitae, vehicula at leo. Sed malesuada pulvinar nibh, nec tristique orci semper sed. Aenean risus nisl, placerat vel euismod quis, posuere rhoncus dolor. In quis ante placerat, euismod risus ut, congue dui. Duis luctus semper nunc vel pulvinar. Donec consequat, lorem nec rutrum venenatis, nisi neque pulvinar libero, id venenatis massa magna quis nisl. Nam sit amet tincidunt nunc. Suspendisse sem eros, blandit quis luctus sit amet, feugiat eu tellus. Suspendisse ac consectetur risus. Etiam in hendrerit magna, id tempus eros.
+![Jonas Salk][1]
 
-Morbi euismod suscipit suscipit. Phasellus a arcu ac turpis lacinia dictum. Mauris imperdiet commodo quam et condimentum. Aenean est ligula, hendrerit et varius quis, luctus et lorem. Aliquam vestibulum et magna nec aliquam. Suspendisse eu ultricies lectus. Duis vel lorem ut quam bibendum viverra. Curabitur scelerisque, mauris dignissim dignissim egestas, tortor eros pellentesque nunc, ac elementum justo libero sollicitudin erat. Suspendisse suscipit orci eu nibh elementum, non cursus turpis ullamcorper. Integer vehicula libero et tellus vulputate, eu aliquam diam placerat. Morbi pharetra, urna quis bibendum vulputate, nibh nisl dictum risus, et cursus tortor tortor id libero. Integer accumsan, enim sit amet blandit ultricies, diam elit condimentum justo, quis adipiscing dolor eros non neque. Vivamus commodo sem libero, sit amet tincidunt nisi accumsan vitae. Donec nec sem nunc. Phasellus sed placerat erat. Integer nisi lectus, cursus a est id, gravida aliquam purus.
+*We use the same methodology as this guy, and he cured Polio.*
 
-Good bye, and thank's for all the fish!
+----------
+
+
+
+###The Process
+
+**Observation**
+
+We research the problem, the problem space, and the people involved. This means that we actually talk to people. We ask them about how they feel, how they currently solve the problem, their frustrations, what delights them, etc. This ensures that we can design real solutions for real people.
+
+**Hypothesis**
+
+We use simple brainstorming techniques to form ideas about the people, the problem, and the solution.
+
+**Experimentation**
+
+We create prototypes and watch people use them. These prototypes could be sketches, clickable interfaces, simple games we create, anything that gets the job done.
+
+**Analysis**
+
+We analyze the results of our experiments using some techniques such as customer journey maps, more prototypes and testing, or more interviews.
+
+
+**Conclusion**
+
+When we are sure that we have a solution that works, we document it with flow diagrams and sketches/wireframes. Then we build it.
+
+![Analysis][2]
+
+
+
+  [1]: /assets/images/jonas.jpg
+  [2]: /assets/images/analysis.jpg
