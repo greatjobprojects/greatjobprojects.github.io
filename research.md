@@ -22,7 +22,7 @@ Research will help you understand the problem you are trying to solve and the pe
 
 **Observation**
 
-We research the problem, the problem space, and the people involved. This means that we actually talk to people. We ask them about how they feel, how they currently solve the problem, their frustrations, what delights them, etc. This ensures that we can design real solutions for real people.
+We research the problem, the problem space, and the people involved. This means that we actually talk to people. We ask them about how they feel, how they currently solve the problem, what frustrates them, what delights them, etc. This ensures that we can design real solutions for real people.
 
 **Hypothesis**
 
@@ -41,7 +41,7 @@ We analyze the results of our experiments using some techniques such as customer
 
 When we are sure that we have a solution that works, we document it with flow diagrams and sketches/wireframes. Then we build it.
 
-![Analysis][2]
+
 
 
 

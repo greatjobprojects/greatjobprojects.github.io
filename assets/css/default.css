@@ -68,6 +68,7 @@ h3 {
 img {
 	border-radius: 3px;
 	max-width: 100%;
+	text-align: center;
 }
 
 #post-info {
