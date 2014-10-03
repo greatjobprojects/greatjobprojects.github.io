@@ -21,7 +21,7 @@ Startup Institute is a career accelerator. We teach Product & Design in their fu
 ##[Mozilla OpenBadges][6]
 OpenBadges is a Mozilla Foundation project that aims to help people get recognition for self-taught schools. We are helping them understand what it means to be a designer, and how we got there.
 
-##[Loyola Univesity Chicago][7]
+##[Loyola University Chicago][7]
 Loyola University Chicago is Jordan's alma mater. We often guest lecture and lead workshops.
 
   [1]: http://www.empeopled.com

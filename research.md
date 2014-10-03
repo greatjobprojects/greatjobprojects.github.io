@@ -41,6 +41,8 @@ We analyze the results of our experiments using some techniques such as customer
 
 When we are sure that we have a solution that works, we document it with flow diagrams and sketches/wireframes. Then we build it.
 
+![Analysis][2]
+
 
 
 
